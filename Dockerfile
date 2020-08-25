@@ -4,6 +4,7 @@ MAINTAINER skug
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     apt-transport-https \
+    rsync \
     --no-install-recommends
 
 # Get Chrome sources
